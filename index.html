@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"> <!--브라우저마다 다른 환경 초기화-->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" /> <!--웹폰트적용-->
+    <title> 명함만들기 </title> 
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <h1>명함 만들기</h1>
+    <div class="form">
+        <p>데이터를 입력하고 버튼을 누르면 명함이 만들어집니다.</p>
+        <input class = "name" placeholder = '이름' >
+        <input class = "position" placeholder = '직책' >
+        <input class = "pnum" placeholder = '전화번호'>
+        <input class = "email"placeholder = '이메일' >
+        <button class="create-card">명함 만들기</button>
+        <p class="message"></p>
+    </div>
+    <div class="card">
+        <img src="./images/result_character1.png" alt="image" width="150" height="150" style="flex-shrink: 0;">
+        <div>
+            <div class="name"></div>
+            <div class="position"></div>
+            <div class="pnum"></div>
+            <div class="email"></div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
